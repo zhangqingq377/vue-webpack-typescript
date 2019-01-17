@@ -28,3 +28,12 @@ $ npm run dev
 - `npm run build`: build with HTML/CSS/JS minification, code splitting and icon generation
 - `npm run ci:teamcity`: Teamcity CI integration
 - `npm run ci:jenkins`: Jenkins CI integration
+
+### RUN
+how to run the project
+``` bash
+$ cd ./template
+$ npm install
+$ npm run dev
+
+
