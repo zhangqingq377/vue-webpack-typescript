@@ -27,7 +27,7 @@ webpackConfig.module.rules = [...webpackConfig.module.rules,
 webpackConfig.plugins = [...webpackConfig.plugins,
   new HtmlWebpackPlugin({
     inject: true,
-    template: helpers.root('/src/index.html'),
+    template: helpers.root('/src/index.ejs'),
     favicon: helpers.root('/src/favicon.ico')
   }),
   new DefinePlugin({
@@ -36,7 +36,7 @@ webpackConfig.plugins = [...webpackConfig.plugins,
 ]
 
 webpackConfig.devServer = {
-  port: 8080,
+  port: 10001,
   host: 'localhost',
   historyApiFallback: true,
   watchOptions: {
